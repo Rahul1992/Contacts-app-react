@@ -14,6 +14,8 @@ class Root extends Component {
     return (
       <Router history={this.props.history}>
         <Route path='/' component={App}>
+           <IndexRoute component={Index}/>
+        
          </Route>
       </Router>
     );
