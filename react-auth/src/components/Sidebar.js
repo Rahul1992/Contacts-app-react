@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import Contacts from './Contacts';
 
 class SidebarComponent extends Component {
   render() {
     return (
-      <h1>Hello from the sidebar</h1>
+      <Contacts />
     );
   }
 }
+
 
 export default SidebarComponent;
